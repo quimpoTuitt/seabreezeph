@@ -1,0 +1,236 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+
+body {
+  min-height: 75rem;
+  /*padding-top: 4.5rem;*/
+}
+.sticky {
+    position:fixed;
+    top:0;
+}
+.main-menu{width:100%}
+.menu-padding {
+    padding-top:40px;
+}
+
+
+
+#brandLogo {
+	height: 3.75em;
+}
+
+.navbar {
+	border-bottom: 6px solid #40A4F4;
+	z-index: 99999 !important;
+	background-color: white;
+}
+
+a.nav-link {
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+}
+
+.active>.nav-link {
+	color: #40A4F4 !important;
+}
+
+.active>.nav-link:hover {
+	font-weight: bolder !important;
+}
+
+
+#landing {
+	/*background: url("../assets/images/breeze.svg");*/
+	margin: 0;
+	padding: 0;
+    height:100vh;
+    background-color:#fff;
+    margin-bottom: 10em;
+
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #2994D1;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+
+
+/*aboutUs*/
+
+#iconsAbout {
+	position: relative;
+	z-index: -999999999 !important;
+}
+
+#borderBot {
+	border-bottom: 6px solid #40A4F4;
+	position: absolute;
+	width: 15%;
+	left: 42.5%;
+}
+
+#who {
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+#iconHolder img {
+	height: 150px;
+}
+
+
+/*endAbout*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	#sbLogo {
+		padding-top: 50%;
+	}
+			.hidden-xs-down {
+			display: none;
+		}
+
+	#iconHolder {
+		margin-bottom: 5em;
+	}
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+		#sbLogo {
+		padding-top: 50%;
+	}
+		.hidden-xs-down {
+			display: none;
+		}
+
+			#iconHolder {
+		margin-bottom: 10em;
+	}
+
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+		#sbLogo {
+		padding-top: 50%;
+		}
+
+		#safe {
+		height: 100%;
+		}
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	.nav-item {
+	padding-right: 3em;
+	}
+
+	
+
+
+
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.nav-item {
+	padding-right: 3em;
+}
+
+ }
