@@ -12,7 +12,9 @@ body {
     position:fixed;
     top:0;
 }
-.main-menu{width:100%}
+.main-menu {
+	width:100%;
+}
 .menu-padding {
     padding-top:40px;
 }
@@ -118,17 +120,96 @@ a.nav-link {
 }
 
 #who {
-	margin-bottom: 2em;
 	margin-top: 2em;
+	font-weight: bolder;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#who2 {
+	margin-bottom: 3.5em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	font-weight: lighter;
+	letter-spacing: -.035em;
+	color: #9ea0a6;
 }
 
 #iconHolder img {
 	height: 150px;
 }
 
+.goals {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: .035em;
+}
+
+#aboutDetails {
+	margin-top: 8em;
+	position: relative;
+	z-index: -9 !important;
+}
+
+.aboutTopic {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: .035em;
+}
+
+.aboutDesc {
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	font-weight: 400;
+	color: #9ea0a6;
+	margin-bottom: 2em;
+}
+
+.una {
+	margin-top: 5em;
+}
+
+#cards {
+
+}
+
+.card {
+	/*background-color: hsl(220, 12%, 95%);*/
+	box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+	position: relative;
+	z-index: -1 !important;
+}
+
+.card-title {
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .035em;
+	padding-top: 10vh;
+}
+
+.card-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	font-weight: 400;
+	color: #9ea0a6;
+	margin-bottom: 2em;
+}
+
 
 /*endAbout*/
 
+
+.footer {
+	background-color: #1b1b1b;
+	color: #ddd;
+}
+
+.fab {
+	color: blue;
+}
+
+.far {
+	color: red;
+}
 
 
 
@@ -183,6 +264,25 @@ a.nav-link {
 	#iconHolder {
 		margin-bottom: 5em;
 	}
+		#aboutUs {
+		margin-top: 25em;
+	}
+
+	img.aboutPics {
+		width: 100vw;
+	}
+
+	#aboutSb2 {
+		padding-bottom: 3em;
+	}
+
+	.card-title {
+		padding-top: 0;
+	}
+
+	#cards {
+		margin-top: 0;
+	}
 
 }
 
@@ -200,6 +300,21 @@ a.nav-link {
 		margin-bottom: 10em;
 	}
 
+	#aboutUs {
+		margin-top: 25em;
+	}
+		img.aboutPics {
+		width: 100vw;
+
+	}
+		.card-title {
+		padding-top: 0;
+	}
+
+		#cards {
+		margin-top: 0;
+	}
+
  }
 
  /*Medium devices (tablets, 768px and up)*/
@@ -212,6 +327,33 @@ a.nav-link {
 		#safe {
 		height: 100%;
 		}
+
+	img.aboutPics {
+		width: 100%;
+		height: 45vh;
+	}
+
+	#aboutSb {
+		margin-top: 50%;
+	}
+
+	.card-title {
+		padding-top: 1vh;
+	}
+
+	.card-text {
+		font-size: smaller;
+	}
+
+	#cards {
+		margin-top: 0;
+	}
+
+	#cards.una {
+		margin-top: 5em;
+	}
+
+
  }
 
  /*Large devices (desktops, 992px and up)*/
@@ -219,6 +361,10 @@ a.nav-link {
 
 	.nav-item {
 	padding-right: 3em;
+	}
+
+	#who {
+		margin-top: 10em;
 	}
 
 	
@@ -231,6 +377,10 @@ a.nav-link {
 @media (min-width: 1200px) { 
 	.nav-item {
 	padding-right: 3em;
+}
+
+#who {
+	margin-top: 10em;
 }
 
  }
